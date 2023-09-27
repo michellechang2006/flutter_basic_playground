@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0588aa433694fdf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,6 +157,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0e756678bf41da3",
+  "active": "e0588aa433694fdf",
   "lastOpenFiles": []
 }
