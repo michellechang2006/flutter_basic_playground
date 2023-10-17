@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e0588aa433694fdf",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0ace11be19d9fc34",
@@ -157,6 +145,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0588aa433694fdf",
-  "lastOpenFiles": []
+  "active": "f0e756678bf41da3",
+  "lastOpenFiles": [
+    "Flutter_&_Dart-The_Complete_Guide_Course/Flutter Dart Basics Il - Fundamentals &Deep Dive ［QUIZ APP］/雜記.md",
+    "Flutter_&_Dart-The_Complete_Guide_Course/Flutter_&_Dart_Basics_I-Getting_a_Solid_Foundation_[ROLL_DICE_APP]/雜記.md",
+    "Flutter_&_Dart-The_Complete_Guide_Course/Flutter Dart Basics Il - Fundamentals &Deep Dive ［QUIZ APP］"
+  ]
 }

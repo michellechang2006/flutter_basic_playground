@@ -33,20 +33,17 @@ class StartScreen extends StatelessWidget {
                 Icons.arrow_right_alt,
                 color: Colors.white,
               ),
-              style: const ButtonStyle(
-                shadowColor:
-                    MaterialStatePropertyAll(Color.fromRGBO(46, 30, 81, 1)),
-                backgroundColor: MaterialStatePropertyAll(
-                  Color.fromRGBO(85, 60, 139, 1),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100),
                 ),
-                foregroundColor: MaterialStatePropertyAll(
-                  Color.fromRGBO(85, 60, 139, 1),
-                ),
+                backgroundColor:const Color.fromRGBO(85, 60, 139, 1),
+                shadowColor: const Color.fromRGBO(46, 30, 81, 1),
               ),
               label: const Text(
                 'Start Quiz',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.white
                 ),
               ),
             ),

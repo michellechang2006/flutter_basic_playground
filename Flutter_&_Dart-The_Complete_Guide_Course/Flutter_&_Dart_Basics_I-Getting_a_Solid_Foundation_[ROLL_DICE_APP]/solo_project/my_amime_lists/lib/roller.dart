@@ -15,8 +15,8 @@ const List scr = [
   'https://i.imgur.com/Q6WAQJi.jpg'
 ];
 
-var url = scr.elementAt(index);
-String rating = ratingList.elementAt(index);
+var url = scr[index];
+String rating = ratingList[index];
 
 class RollerCard extends StatefulWidget {
   const RollerCard({super.key});
@@ -26,7 +26,7 @@ class RollerCard extends StatefulWidget {
 
 class _RollerCardState extends State<RollerCard> {
   var lastIndex = -1;
-  var index;
+  dynamic index;
 
   void updateIndex() {
     do {
@@ -39,8 +39,8 @@ class _RollerCardState extends State<RollerCard> {
     setState(
       () {
         updateIndex();
-        url = scr.elementAt(index);
-        rating = ratingList.elementAt(index);
+        url = scr[index];
+        rating = ratingList[index];
         rotateValue = (random.nextBool() ? 1 : -1) * (random.nextInt(150) + 50);
         print('rotateValue: $rotateValue');
         print('index: $index');
@@ -86,7 +86,6 @@ class _RollerCardState extends State<RollerCard> {
         ),
         Positioned(
           top: 8.5,
-
           child: Transform.rotate(
             angle: math.pi / rotateValue,
             child: ClipRRect(
